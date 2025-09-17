@@ -3,7 +3,7 @@ class Animal {
 	constructor(species){
 		this.species = species;
 	}
-	get this.species {
+	get newspecies {
 		return this.species;
 	}
 
@@ -24,13 +24,13 @@ class Cat extends Animal {
 	}
 }
 
-const myCat = new cat("Siamese");
-myCat.makeSound();
-myCat.purr();
+const myCat = new Cat("Siamese");
+console.log(myCat.makeSound());
+console.log(myCat.purr());      
 
-const myDog = new dog("Golden Retriever");
-myDog.makeSound();
-myDog.bark();
+const myDog = new Dog("Golden Retriever");
+console.log(myDog.makeSound()); 
+console.log(myDog.bark());      
 // Do not change the code below this line
 window.Animal = Animal;
 window.Dog = Dog;
