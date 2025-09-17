@@ -8,7 +8,7 @@ class Animal {
 	}
 
 	makeSound(){
-		return "The" + this.species + "makes a sound";
+		return "The " + this.species + " makes a sound";
 	}
 }
 
